@@ -1,31 +1,50 @@
 /**
- * Nojom Al Arab - Global Footer Loader
- * Loads the single-source-of-truth footer component into any page containing <div id="site-footer"></div>
- * or ensures the existing footer has the active year updated automatically.
+ * Nojom Al Arab - Global Footer Dynamic Component Loader
+ * Automatically fetches and injects /components/footer.html into #site-footer on every page.
+ * Editing /components/footer.html once updates the footer everywhere instantly!
  */
-(function() {
-    function updateYear() {
-        const yearEl = document.getElementById('currentYear');
+(function () {
+    function updateYear(container) {
+        var yearEl = (container || document).querySelector('#currentYear');
         if (yearEl) {
             yearEl.textContent = new Date().getFullYear();
         }
     }
 
     async function loadFooter() {
-        const container = document.getElementById('site-footer') || document.getElementById('global-footer-container');
-        if (container && !container.innerHTML.trim()) {
+        var target = document.getElementById('site-footer') || 
+                     document.getElementById('global-footer') || 
+                     document.getElementById('global-site-footer');
+
+        if (!target) return;
+
+        // Try to fetch from root first, then fallback to relative if needed
+        var candidateUrls = [
+            '/components/footer.html',
+            'components/footer.html',
+            '../components/footer.html',
+            '../../components/footer.html'
+        ];
+
+        var loaded = false;
+
+        for (var i = 0; i < candidateUrls.length; i++) {
             try {
-                const response = await fetch('/components/footer.html');
-                if (response.ok) {
-                    const html = await response.text();
-                    container.innerHTML = html;
-                    updateYear();
+                var res = await fetch(candidateUrls[i]);
+                if (res.ok) {
+                    var html = await res.text();
+                    target.innerHTML = html;
+                    updateYear(target);
+                    loaded = true;
+                    break;
                 }
-            } catch (err) {
-                console.warn('Could not load dynamic footer from /components/footer.html:', err);
+            } catch (e) {
+                // Try next path
             }
-        } else {
-            updateYear();
+        }
+
+        if (!loaded) {
+            updateYear(target);
         }
     }
 
