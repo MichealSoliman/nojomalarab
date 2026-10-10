@@ -1,0 +1,292 @@
+[
+  {
+    "file": "about/index.html",
+    "hasTailwindConfig": true,
+    "hasTailwindCdn": false,
+    "hasOutputCss": true,
+    "faCount": 1,
+    "isLazyFA": false,
+    "faTags": [
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\">"
+    ]
+  },
+  {
+    "file": "apartment-furniture-moving-jeddah/index.html",
+    "hasTailwindConfig": false,
+    "hasTailwindCdn": false,
+    "hasOutputCss": true,
+    "faCount": 2,
+    "isLazyFA": true,
+    "faTags": [
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\"\r\n        media=\"print\" onload=\"this.media='all'\">",
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\">"
+    ]
+  },
+  {
+    "file": "areas/furniture-moving-hayu-al-safa/index.html",
+    "hasTailwindConfig": false,
+    "hasTailwindCdn": false,
+    "hasOutputCss": true,
+    "faCount": 1,
+    "isLazyFA": false,
+    "faTags": [
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\">"
+    ]
+  },
+  {
+    "file": "areas/furniture-moving-hayu-alhamdaniyah/index.html",
+    "hasTailwindConfig": false,
+    "hasTailwindCdn": false,
+    "hasOutputCss": true,
+    "faCount": 1,
+    "isLazyFA": false,
+    "faTags": [
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\">"
+    ]
+  },
+  {
+    "file": "areas/furniture-moving-in-hayu-alshati-jeddah/index.html",
+    "hasTailwindConfig": false,
+    "hasTailwindCdn": false,
+    "hasOutputCss": true,
+    "faCount": 1,
+    "isLazyFA": false,
+    "faTags": [
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\">"
+    ]
+  },
+  {
+    "file": "areas/index.html",
+    "hasTailwindConfig": true,
+    "hasTailwindCdn": false,
+    "hasOutputCss": true,
+    "faCount": 1,
+    "isLazyFA": false,
+    "faTags": [
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\">"
+    ]
+  },
+  {
+    "file": "best-furniture-moving-company-jeddah/index.html",
+    "hasTailwindConfig": false,
+    "hasTailwindCdn": false,
+    "hasOutputCss": true,
+    "faCount": 2,
+    "isLazyFA": true,
+    "faTags": [
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\"\n        media=\"print\" onload=\"this.media='all'\">",
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\">"
+    ]
+  },
+  {
+    "file": "blogs/home-preparation-steps-before-moving/index.html",
+    "hasTailwindConfig": false,
+    "hasTailwindCdn": false,
+    "hasOutputCss": true,
+    "faCount": 2,
+    "isLazyFA": true,
+    "faTags": [
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\"\r\n        media=\"print\" onload=\"this.media='all'\">",
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\">"
+    ]
+  },
+  {
+    "file": "blogs/how-to-choose-best-moving-company-in-jeddah/index.html",
+    "hasTailwindConfig": false,
+    "hasTailwindCdn": false,
+    "hasOutputCss": true,
+    "faCount": 1,
+    "isLazyFA": false,
+    "faTags": [
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\">"
+    ]
+  },
+  {
+    "file": "blogs/index.html",
+    "hasTailwindConfig": true,
+    "hasTailwindCdn": false,
+    "hasOutputCss": true,
+    "faCount": 1,
+    "isLazyFA": false,
+    "faTags": [
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\">"
+    ]
+  },
+  {
+    "file": "blogs/the-best-furniture-moving-company-in-jeddah/index.html",
+    "hasTailwindConfig": false,
+    "hasTailwindCdn": false,
+    "hasOutputCss": true,
+    "faCount": 1,
+    "isLazyFA": false,
+    "faTags": [
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\">"
+    ]
+  },
+  {
+    "file": "carpenter-furniture-disassembly-assembly-jeddah/index.html",
+    "hasTailwindConfig": false,
+    "hasTailwindCdn": false,
+    "hasOutputCss": true,
+    "faCount": 2,
+    "isLazyFA": true,
+    "faTags": [
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\"\n        media=\"print\" onload=\"this.media='all'\">",
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\">"
+    ]
+  },
+  {
+    "file": "contact/index.html",
+    "hasTailwindConfig": true,
+    "hasTailwindCdn": false,
+    "hasOutputCss": true,
+    "faCount": 1,
+    "isLazyFA": false,
+    "faTags": [
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\">"
+    ]
+  },
+  {
+    "file": "furniture-disassembly-and-reassembly-in-jeddah/index.html",
+    "hasTailwindConfig": false,
+    "hasTailwindCdn": false,
+    "hasOutputCss": true,
+    "faCount": 2,
+    "isLazyFA": true,
+    "faTags": [
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\"\n        media=\"print\" onload=\"this.media='all'\">",
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\">"
+    ]
+  },
+  {
+    "file": "furniture-lifting-crane-in-jeddah/index.html",
+    "hasTailwindConfig": false,
+    "hasTailwindCdn": false,
+    "hasOutputCss": true,
+    "faCount": 2,
+    "isLazyFA": true,
+    "faTags": [
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\"\n        media=\"print\" onload=\"this.media='all'\">",
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\">"
+    ]
+  },
+  {
+    "file": "furniture-moving-prices-jeddah/index.html",
+    "hasTailwindConfig": false,
+    "hasTailwindCdn": false,
+    "hasOutputCss": true,
+    "faCount": 2,
+    "isLazyFA": true,
+    "faTags": [
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\"\r\n        media=\"print\" onload=\"this.media='all'\">",
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\">"
+    ]
+  },
+  {
+    "file": "furniture-packaging-in-jeddah/index.html",
+    "hasTailwindConfig": false,
+    "hasTailwindCdn": false,
+    "hasOutputCss": true,
+    "faCount": 2,
+    "isLazyFA": true,
+    "faTags": [
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\"\n        media=\"print\" onload=\"this.media='all'\">",
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\">"
+    ]
+  },
+  {
+    "file": "furniture-storage-in-jeddah/index.html",
+    "hasTailwindConfig": false,
+    "hasTailwindCdn": false,
+    "hasOutputCss": true,
+    "faCount": 2,
+    "isLazyFA": true,
+    "faTags": [
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\"\n        media=\"print\" onload=\"this.media='all'\">",
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\">"
+    ]
+  },
+  {
+    "file": "furniture-transport-trucks-in-jeddah/index.html",
+    "hasTailwindConfig": false,
+    "hasTailwindCdn": false,
+    "hasOutputCss": true,
+    "faCount": 2,
+    "isLazyFA": true,
+    "faTags": [
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\"\r\n        media=\"print\" onload=\"this.media='all'\">",
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\">"
+    ]
+  },
+  {
+    "file": "intercity-furniture-moving-from-jeddah/index.html",
+    "hasTailwindConfig": false,
+    "hasTailwindCdn": false,
+    "hasOutputCss": true,
+    "faCount": 2,
+    "isLazyFA": true,
+    "faTags": [
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\"\n        media=\"print\" onload=\"this.media='all'\">",
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\">"
+    ]
+  },
+  {
+    "file": "office-furniture-moving-jeddah/index.html",
+    "hasTailwindConfig": false,
+    "hasTailwindCdn": false,
+    "hasOutputCss": true,
+    "faCount": 2,
+    "isLazyFA": true,
+    "faTags": [
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\"\r\n        media=\"print\" onload=\"this.media='all'\">",
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\">"
+    ]
+  },
+  {
+    "file": "privacy-policy.html",
+    "hasTailwindConfig": false,
+    "hasTailwindCdn": false,
+    "hasOutputCss": true,
+    "faCount": 2,
+    "isLazyFA": true,
+    "faTags": [
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\"\r\n        media=\"print\" onload=\"this.media='all'\">",
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\">"
+    ]
+  },
+  {
+    "file": "services/index.html",
+    "hasTailwindConfig": true,
+    "hasTailwindCdn": false,
+    "hasOutputCss": true,
+    "faCount": 1,
+    "isLazyFA": false,
+    "faTags": [
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\">"
+    ]
+  },
+  {
+    "file": "terms.html",
+    "hasTailwindConfig": false,
+    "hasTailwindCdn": false,
+    "hasOutputCss": true,
+    "faCount": 2,
+    "isLazyFA": true,
+    "faTags": [
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\"\r\n        media=\"print\" onload=\"this.media='all'\">",
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\">"
+    ]
+  },
+  {
+    "file": "villa-moving-jeddah/index.html",
+    "hasTailwindConfig": false,
+    "hasTailwindCdn": false,
+    "hasOutputCss": true,
+    "faCount": 2,
+    "isLazyFA": true,
+    "faTags": [
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\"\n        media=\"print\" onload=\"this.media='all'\">",
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\">"
+    ]
+  }
+]

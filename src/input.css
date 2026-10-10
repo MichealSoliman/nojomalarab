@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url('/assets/fonts/Tajawal-ExtraLight.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('/assets/fonts/Tajawal-Light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/assets/fonts/Tajawal-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/assets/fonts/Tajawal-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/assets/fonts/Tajawal-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('/assets/fonts/Tajawal-ExtraBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Tajawal';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('/assets/fonts/Tajawal-Black.woff2') format('woff2');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.services-dropdown-items::-webkit-scrollbar {
+  width: 6px;
+}
+.services-dropdown-items::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 8px;
+}
+.services-dropdown-items::-webkit-scrollbar-thumb {
+  background: #f39c12;
+  border-radius: 8px;
+}
+.services-dropdown-items::-webkit-scrollbar-thumb:hover {
+  background: #e67e22;
+}
+
+.services-dropdown-menu {
+  pointer-events: none;
+}
+
+.services-dropdown-wrapper.is-open .services-dropdown-menu {
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+  transform: translateY(0) !important;
+}
+
+.services-dropdown-wrapper.is-open .services-arrow {
+  transform: rotate(180deg) !important;
+  color: #f39c12 !important;
+}

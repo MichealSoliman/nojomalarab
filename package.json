@@ -1,0 +1,21 @@
+{
+  "name": "nojomalarab",
+  "version": "1.0.0",
+  "description": "شركة نجوم العرب لنقل العفش بجدة",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+    "watch:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "sync:footer": "node scripts/sync-footer.js",
+    "build": "npm run sync:footer && npm run build:css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "autoprefixer": "^10.5.4",
+    "postcss": "^8.5.26",
+    "tailwindcss": "^3.4.19"
+  }
+}
