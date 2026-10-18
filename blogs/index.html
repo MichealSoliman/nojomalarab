@@ -926,10 +926,9 @@
         const articles = [
             {
                 id: 1,
-                image: "/assets/img/furniture-moving-in-jeddah.webp",
-                alt: "دليل أسعار وتكلفة نقل العفش في جدة 2026",
+                icon: "fas fa-calculator",
                 date: "أكتوبر 2026",
-                category: "دليل الأسعار والتكاليف",
+                category: "دليل الأسعار 2026",
                 title: "دليل أسعار وتكلفة نقل العفش في جدة 2026: جدول استرشادي والعوامل المؤثرة في السعر",
                 excerpt: "دليل استرشادي مفصل يوضح تكلفة نقل الأثاث في أحياء جدة لعام 2026، مع جدول تقديري، والعوامل المؤثرة كالمسافة والطوابق والفك والتركيب، وطريقة قراءة عروض الأسعار.",
                 link: "./furniture-moving-prices-jeddah-2026/",
@@ -937,8 +936,7 @@
             },
             {
                 id: 2,
-                image: "/assets/img/furniture-packaging-in-jeddah.webp",
-                alt: "تغليف الأجهزة الحساسة والتحف والزجاج",
+                icon: "fas fa-shield-alt",
                 date: "أكتوبر 2026",
                 category: "التغليف والحماية",
                 title: "الدليل الشامل لتغليف الأجهزة الحساسة والتحف والزجاج أثناء النقل دون تعريضها للكسر",
@@ -948,8 +946,7 @@
             },
             {
                 id: 3,
-                image: "/assets/img/furniture-storage-in-jeddah.webp",
-                alt: "حماية الأثاث أثناء النقل في جو جدة",
+                icon: "fas fa-temperature-high",
                 date: "أكتوبر 2026",
                 category: "نصائح وإرشادات مناخية",
                 title: "كيف تحمي أثاثك أثناء النقل في جدة؟ نصائح عملية للتعامل مع الحرارة والرطوبة",
@@ -959,8 +956,7 @@
             },
             {
                 id: 4,
-                image: "/assets/img/furniture-transport-trucks-in-jeddah.webp",
-                alt: "قائمة مراجعة الانتقال لبيت جديد في جدة",
+                icon: "fas fa-clipboard-check",
                 date: "أكتوبر 2026",
                 category: "Checklist الانتقال",
                 title: "قائمة المراجعة الشاملة للانتقال إلى بيت جديد في جدة: Checklist قبل وأثناء وبعد النقل",
@@ -970,8 +966,7 @@
             },
             {
                 id: 5,
-                image: "/assets/img/furniture-moving-across-jeddah's-neighborhoods-and-districts.webp",
-                alt: "أفضل شركة نقل عفش بجدة",
+                icon: "fas fa-award",
                 date: "14 يوليو 2026",
                 category: "نقل العفش",
                 title: "أفضل شركة نقل عفش بجدة بخدمات احترافية وأسعار تنافسية",
@@ -981,8 +976,7 @@
             },
             {
                 id: 6,
-                image: "/assets/img/about.webp",
-                alt: "كيف تختار أفضل شركة نقل عفش في جدة",
+                icon: "fas fa-user-check",
                 date: "14 يوليو 2026",
                 category: "دليل العملاء",
                 title: "كيف تختار أفضل شركة نقل عفش في جدة؟ أهم المعايير التي يجب مراعاتها",
@@ -992,8 +986,7 @@
             },
             {
                 id: 7,
-                image: "/assets/img/furniture-disassembly-and-reassembly-in-jeddah.webp",
-                alt: "خطوات تجهيز المنزل قبل نقل العفش",
+                icon: "fas fa-couch",
                 date: "14 يوليو 2026",
                 category: "دليل العملاء",
                 title: "خطوات تجهيز المنزل قبل نقل العفش: دليل شامل لنقل سلس وبدون أضرار",
@@ -1004,7 +997,7 @@
         ];
 
         // ==========================================
-        // دالة عرض الكروت
+        // دالة عرض الكروت بتصميم أنيق ومريح
         // ==========================================
         function renderArticles(articlesData) {
             const grid = document.getElementById('articlesGrid');
@@ -1015,44 +1008,58 @@
             articlesData.forEach(article => {
                 html += `
                 <!-- ===== كارت: ${article.title} ===== -->
-                <div class="bg-white rounded-2xl overflow-hidden border border-gray-200 hover:border-orange-400 shadow-md hover:shadow-2xl hover:shadow-orange-100/50 transition-all duration-300 hover:transform hover:-translate-y-2 group">
-                    <!-- صورة الكارت -->
-                    <div class="relative overflow-hidden h-56">
-                        <img src="${article.image}" 
-                             alt="${article.alt}" 
-                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                             loading="lazy">
-                        <!-- تاريخ المقال -->
-                        <div class="absolute top-4 right-4 bg-black/70 backdrop-blur-sm text-white text-xs px-3 py-1.5 rounded-full">
-                            <i class="far fa-calendar-alt ml-1"></i> ${article.date}
+                <div class="bg-white rounded-3xl overflow-hidden border border-gray-100 hover:border-orange-300 shadow-sm hover:shadow-xl hover:shadow-orange-500/10 transition-all duration-300 hover:-translate-y-1.5 flex flex-col justify-between group">
+                    <!-- رأس الكارت: خلفية ناعمة أنيقة وأيقونة مميزة -->
+                    <div class="relative bg-gradient-to-br from-slate-50 via-orange-50/40 to-amber-50/50 p-6 border-b border-gray-100">
+                        <!-- صف الشارات: التصنيف والتاريخ -->
+                        <div class="flex items-center justify-between gap-2 mb-5">
+                            <span class="inline-flex items-center gap-1.5 bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">
+                                <i class="fas fa-tag text-[10px]"></i>
+                                ${article.category}
+                            </span>
+                            <span class="inline-flex items-center gap-1.5 text-xs text-gray-500 font-medium bg-white px-2.5 py-1 rounded-full border border-gray-200/80 shadow-2xs">
+                                <i class="far fa-calendar-alt text-orange-500"></i>
+                                ${article.date}
+                            </span>
                         </div>
-                        <!-- تصنيف -->
-                        <div class="absolute bottom-4 right-4 bg-orange-500 text-white text-xs px-3 py-1.5 rounded-full">
-                            ${article.category}
+
+                        <!-- حاوية الأيقونة التعبيرية -->
+                        <div class="flex items-center gap-4">
+                            <div class="w-16 h-16 rounded-2xl bg-[#0a2540] text-orange-400 group-hover:bg-gradient-to-br group-hover:from-orange-500 group-hover:to-amber-500 group-hover:text-white flex items-center justify-center text-2xl shadow-md group-hover:shadow-orange-500/30 group-hover:scale-105 transition-all duration-300 shrink-0">
+                                <i class="${article.icon}"></i>
+                            </div>
+                            <div>
+                                <span class="block text-xs font-bold text-gray-800 mb-0.5">مدونة نجوم العرب</span>
+                                <span class="text-xs text-gray-400">دليل استرشادي معتمد</span>
+                            </div>
                         </div>
                     </div>
-                    
+
                     <!-- محتوى الكارت -->
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold text-[#0a2540] mb-3 line-clamp-2 group-hover:text-orange-500 transition-colors">
-                            ${article.title}
-                        </h3>
-                        <p class="text-gray-600 text-sm leading-relaxed mb-4 line-clamp-3">
-                            ${article.excerpt}
-                        </p>
-                        
-                        <!-- أزرار الكارت -->
-                        <div class="flex flex-col sm:flex-row gap-3 mt-4">
-                            <a href="${article.whatsapp}" target="_blank" 
-                               class="flex-1 bg-green-500 hover:bg-green-600 text-white text-sm font-semibold px-4 py-2.5 rounded-full transition-all duration-300 flex items-center justify-center gap-2 hover:scale-105">
-                                <i class="fab fa-whatsapp"></i>
-                                <span>اتصل بنا</span>
-                            </a>
-                            <a href="${article.link}" 
-                               class="flex-1 border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white text-sm font-semibold px-4 py-2.5 rounded-full transition-all duration-300 flex items-center justify-center gap-2 hover:scale-105">
-                                <span>قراءة المزيد</span>
-                                <i class="fas fa-arrow-left"></i>
-                            </a>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div class="mb-6">
+                            <h3 class="text-lg md:text-xl font-bold text-[#0a2540] mb-3 line-clamp-2 group-hover:text-orange-500 transition-colors leading-snug">
+                                ${article.title}
+                            </h3>
+                            <p class="text-gray-600 text-sm leading-relaxed line-clamp-3">
+                                ${article.excerpt}
+                            </p>
+                        </div>
+
+                        <!-- قسم الأزرار مع فاصل وهوامش مريحة تمنع الالتصاق -->
+                        <div class="pt-5 border-t border-gray-100 mt-auto">
+                            <div class="flex items-center gap-3">
+                                <a href="${article.whatsapp}" target="_blank" aria-label="تواصل واتساب"
+                                   class="w-12 h-12 bg-green-50 hover:bg-green-500 text-green-600 hover:text-white rounded-xl border border-green-200 transition-all duration-300 flex items-center justify-center text-xl hover:scale-105 shrink-0 shadow-2xs"
+                                   title="تواصل معنا عبر واتساب">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                                <a href="${article.link}" 
+                                   class="flex-1 bg-gradient-to-r  from-orange-600 to-amber-600 text-white text-sm font-bold py-3 px-5 rounded-xl transition-all duration-300 flex items-center justify-center gap-2 shadow-md hover:shadow-orange-500/25 group/btn">
+                                    <span>قراءة المقال</span>
+                                    <i class="fas fa-arrow-left text-xs transition-transform group-hover/btn:-translate-x-1"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
