@@ -18,7 +18,7 @@
 
   <url>
     <loc>https://nojomalarab.com/</loc>
-    <lastmod>2026-10-06T12:00:00+00:00</lastmod>
+    <lastmod>2026-10-20T12:00:00+00:00</lastmod>
     <priority>1.00</priority>
   </url>
 
@@ -156,7 +156,7 @@
 
   <url>
     <loc>https://nojomalarab.com/intercity-furniture-moving-from-jeddah/</loc>
-    <lastmod>2026-10-06T12:00:00+00:00</lastmod>
+    <lastmod>2026-10-20T12:00:00+00:00</lastmod>
     <priority>0.85</priority>
   </url>
 
@@ -215,4 +215,40 @@
     <priority>0.80</priority>
   </url>
 
+
+  <url>
+    <loc>https://nojomalarab.com/intercity-moving/</loc>
+    <lastmod>2026-10-20T12:00:00+00:00</lastmod>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://nojomalarab.com/intercity-moving/jeddah-to-riyadh/</loc>
+    <lastmod>2026-10-20T12:00:00+00:00</lastmod>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://nojomalarab.com/intercity-moving/jeddah-to-makkah/</loc>
+    <lastmod>2026-10-20T12:00:00+00:00</lastmod>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://nojomalarab.com/intercity-moving/jeddah-to-madinah/</loc>
+    <lastmod>2026-10-20T12:00:00+00:00</lastmod>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://nojomalarab.com/intercity-moving/jeddah-to-taif/</loc>
+    <lastmod>2026-10-20T12:00:00+00:00</lastmod>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://nojomalarab.com/intercity-moving/jeddah-to-dammam/</loc>
+    <lastmod>2026-10-20T12:00:00+00:00</lastmod>
+    <priority>0.85</priority>
+  </url>
 </urlset>
