@@ -90,6 +90,21 @@ window.SERVICES_DATA = [
         icon: "fa-solid fa-building",
         desc: "نجار مختص في فك وتركيب جميع أنواع الأثاث بجدة، عمالة ماهرة ومحترفة"
     },
+   
+    {
+        id: "kitchen-moving-jeddah",
+        title: " نقل مطابخ بجدة",
+        url: "/kitchen-moving-jeddah/",
+        icon: "fa-solid fa-utensils",
+        desc: "خدمة نقل المطابخ بجدة تشمل فك وتركيب وتغليف ونقل المطابخ بأمان واحترافية."
+    },
+    {
+        id: "affordable-furniture-moving-jeddah",
+        title: "نقل عفش اقتصادي ",
+        url: "/affordable-furniture-moving-jeddah/",
+        icon: "fa-solid fa-utensils",
+        desc: "نقل أثاث بأسعار مخفضة في جدة تشمل الفك والتركيب والتغليف والنقل بأمان واحترافية."
+    },
 ];
 
 (function () {
@@ -156,43 +171,51 @@ window.SERVICES_DATA = [
 
                 // كارت القائمة المنسدلة مع جسر حماية لمنع الاختفاء عند التمرير
                 var dropdownMenu = document.createElement('div');
-                dropdownMenu.className = 'absolute right-0 top-full pt-1 w-80 lg:w-96 opacity-0 invisible transition-all duration-200 z-50 services-dropdown-menu';
+                dropdownMenu.className = 'absolute right-0 top-full pt-2 w-[340px] sm:w-[380px] opacity-0 invisible transition-all duration-200 z-50 services-dropdown-menu';
 
                 var innerCard = document.createElement('div');
-                innerCard.className = 'bg-white/95 backdrop-blur-xl rounded-2xl shadow-2xl border border-gray-100/80 p-3 ring-1 ring-black/5 overflow-hidden text-right';
+                innerCard.className = 'bg-white rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.12),0_4px_12px_rgba(0,0,0,0.05)] border border-gray-100 p-2.5 ring-1 ring-black/5 overflow-hidden text-right';
 
                 var headerHtml = `
-                    <div class="text-xs font-bold text-gray-500 px-3 py-2 mb-1 tracking-wider border-b border-gray-100 flex items-center justify-between">
-                        <span class="flex items-center gap-2 text-primary font-bold">
-                            <i class="fas fa-star text-secondary text-xs"></i>
+                    <div class="px-3.5 py-2.5 mb-1.5 border-b border-gray-100 flex items-center justify-between bg-gradient-to-l from-amber-50/50 to-transparent rounded-xl">
+                        <span class="flex items-center gap-2 text-primary font-bold text-xs">
+                            <span class="w-6 h-6 rounded-md bg-amber-500/10 text-secondary flex items-center justify-center text-[11px]">
+                                <i class="fas fa-layer-group"></i>
+                            </span>
                             خدمات نجوم العرب
                         </span>
-                        <span class="text-[10px] bg-amber-50 text-secondary px-2.5 py-0.5 rounded-full font-bold border border-secondary/20">تغطية شاملة بجدة</span>
+                        <span class="text-[10px] bg-amber-50 text-secondaryDark px-2.5 py-0.5 rounded-full font-bold border border-secondary/20">تغطية شاملة بجدة</span>
                     </div>
                 `;
 
-                var itemsHtml = '<div class="flex flex-col gap-1 max-h-[360px] overflow-y-auto p-1 text-right services-dropdown-items" style="scrollbar-width: thin; scrollbar-color: #f39c12 #f1f5f9;">';
+                var itemsHtml = '<div class="flex flex-col gap-1 services-dropdown-items p-1 text-right" style="max-height: 380px; overflow-y: auto; overscroll-behavior: contain; scroll-behavior: smooth; scrollbar-width: thin; scrollbar-color: #f59e0b #f8fafc;">';
                 services.forEach(function (service) {
                     var itemUrl = getResolvedUrl(service.url);
                     itemsHtml += `
-                        <a href="${itemUrl}" class="flex items-start gap-3 p-2.5 rounded-xl hover:bg-amber-50/60 transition-all duration-200 group/item text-right">
-                            <div class="w-9 h-9 rounded-lg bg-primary/5 group-hover/item:bg-secondary group-hover/item:text-white text-secondary flex items-center justify-center transition-colors duration-200 shrink-0 mt-0.5">
-                                <i class="${service.icon} text-sm"></i>
+                        <a href="${itemUrl}" class="flex items-center justify-between gap-3 p-2.5 rounded-xl hover:bg-amber-50/70 border border-transparent hover:border-amber-100/80 transition-all duration-200 group/item text-right">
+                            <div class="flex items-center gap-3 min-w-0">
+                                <div class="w-9 h-9 rounded-xl bg-amber-50 text-secondary group-hover/item:bg-secondary group-hover/item:text-white flex items-center justify-center transition-all duration-200 shrink-0 shadow-xs">
+                                    <i class="${service.icon} text-sm"></i>
+                                </div>
+                                <div class="flex flex-col text-right min-w-0">
+                                    <span class="text-sm font-bold text-gray-800 group-hover/item:text-secondaryDark transition-colors leading-snug truncate">${service.title}</span>
+                                    <span class="text-xs text-gray-500 line-clamp-1 mt-0.5">${service.desc}</span>
+                                </div>
                             </div>
-                            <div class="flex flex-col text-right">
-                                <span class="text-sm font-bold text-gray-800 group-hover/item:text-secondary transition-colors leading-snug">${service.title}</span>
-                                <span class="text-xs text-gray-500 line-clamp-1 mt-0.5">${service.desc}</span>
-                            </div>
+                            <i class="fas fa-chevron-left text-[10px] text-gray-300 opacity-0 -translate-x-1 group-hover/item:opacity-100 group-hover/item:translate-x-0 group-hover/item:text-secondary transition-all duration-200 shrink-0"></i>
                         </a>
                     `;
                 });
                 itemsHtml += '</div>';
 
                 var footerHtml = `
-                    <div class="mt-1 pt-2 border-t border-gray-100">
-                        <a href="${servicesMainUrl}" class="flex items-center justify-between px-3 py-2 rounded-xl bg-gray-50 hover:bg-secondary/10 text-primary hover:text-secondary font-bold text-xs transition-colors duration-200">
-                            <span>جميع الخدمات والمعرض الكامل</span>
-                            <i class="fas fa-arrow-left text-xs"></i>
+                    <div class="mt-1.5 pt-2 border-t border-gray-100">
+                        <a href="${servicesMainUrl}" class="flex items-center justify-between px-3.5 py-2.5 rounded-xl bg-gray-50 hover:bg-secondary/10 text-primary hover:text-secondaryDark font-bold text-xs transition-colors duration-200 group/footer">
+                            <span class="flex items-center gap-2">
+                                <i class="fas fa-arrow-left-long text-xs text-secondary group-hover/footer:-translate-x-1 transition-transform duration-200"></i>
+                                <span>دليل كافة الخدمات والأسعار</span>
+                            </span>
+                            <span class="text-[10px] text-gray-400 group-hover/footer:text-secondary font-medium">عرض الكل</span>
                         </a>
                     </div>
                 `;
@@ -281,15 +304,19 @@ window.SERVICES_DATA = [
                 `;
 
                 var mobileSubMenu = document.createElement('div');
-                mobileSubMenu.className = 'mobile-services-sub hidden pr-4 pl-2 py-2 flex flex-col gap-1 border-r-2 border-secondary/30 mr-4 my-1 bg-gray-50/60 rounded-xl max-h-[380px] overflow-y-auto services-dropdown-items';
+                mobileSubMenu.className = 'mobile-services-sub hidden pr-3 pl-2 py-2 flex flex-col gap-1 border-r-2 border-secondary/30 mr-3 my-1 bg-gray-50/80 rounded-xl services-dropdown-items';
+                mobileSubMenu.style.cssText = 'max-height: 320px; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; scrollbar-color: #f59e0b #f8fafc;';
 
                 var subHtml = '';
                 services.forEach(function (service) {
                     var itemUrl = getResolvedUrl(service.url);
                     subHtml += `
-                        <a href="${itemUrl}" class="py-2 px-3 text-xs font-semibold text-gray-700 hover:text-secondary hover:bg-white rounded-lg transition-all flex items-center gap-2.5">
-                            <i class="${service.icon} text-secondary text-xs w-4 text-center"></i>
-                            <span>${service.title}</span>
+                        <a href="${itemUrl}" class="py-2 px-3 text-xs font-semibold text-gray-700 hover:text-secondaryDark hover:bg-white rounded-lg transition-all flex items-center justify-between group/mob">
+                            <div class="flex items-center gap-2.5">
+                                <i class="${service.icon} text-secondary text-xs w-4 text-center"></i>
+                                <span>${service.title}</span>
+                            </div>
+                            <i class="fas fa-chevron-left text-[9px] text-gray-300 group-hover/mob:text-secondary transition-colors"></i>
                         </a>
                     `;
                 });
