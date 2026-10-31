@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 
 <head>
@@ -842,6 +842,125 @@
                             السعر النهائي يتحدد دائماً بعد معرفة تفاصيل عملية النقل، ولا يمكن إعطاء رقم ثابت دون
                             معرفة حجم الأثاث والدور ووجود مصعد والمسافة.
                         </p>
+                                                <!-- Interactive Price Calculator Widget -->
+                        <div id="cost-calculator" class="my-8 p-6 bg-slate-900 text-white rounded-2xl shadow-xl border border-secondary/30">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-10 h-10 rounded-xl bg-secondary/20 text-secondary flex items-center justify-center text-xl">
+                                    <i class="fas fa-calculator"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold text-white">حاسبة تقدير تكلفة نقل العفش بجدة</h3>
+                                    <p class="text-xs text-gray-400">احسب التكلفة التقريبية لنقل منزلك في ثوانٍ</p>
+                                </div>
+                            </div>
+
+                            <form id="calcForm" class="space-y-4">
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                    <div>
+                                        <label for="calc-rooms" class="block text-xs font-semibold text-gray-300 mb-1">حجم السكن / عدد الغرف</label>
+                                        <select id="calc-rooms" class="w-full bg-slate-800 border border-gray-700 rounded-xl p-2.5 text-sm text-white focus:outline-none focus:border-secondary">
+                                            <option value="غرفة وصالة أو استوديو" data-base="350">غرفة وصالة أو استوديو (350 - 500 ريال)</option>
+                                            <option value="شقة صغيرة (2 غرف وصالة)" data-base="600" selected>شقة 2 غرف وصالة (600 - 800 ريال)</option>
+                                            <option value="شقة متوسطة (3 غرف وصالة)" data-base="850">شقة 3 غرف وصالة (850 - 1100 ريال)</option>
+                                            <option value="شقة كبيرة (4 - 5 غرف)" data-base="1200">شقة 4-5 غرف كبيرة (1200 - 1600 ريال)</option>
+                                            <option value="فيلا كاملة أو دور مستقل" data-base="1800">فيلا / دور كامل (1800 - 2800 ريال)</option>
+                                        </select>
+                                    </div>
+
+                                    <div>
+                                        <label for="calc-floor" class="block text-xs font-semibold text-gray-300 mb-1">الدور والمصعد</label>
+                                        <select id="calc-floor" class="w-full bg-slate-800 border border-gray-700 rounded-xl p-2.5 text-sm text-white focus:outline-none focus:border-secondary">
+                                            <option value="دور أرضي أو متوفر مصعد" data-extra="0">دور أرضي / متوفر مصعد مناسب (0 ريال)</option>
+                                            <option value="دور مرتفع بدون مصعد" data-extra="150">دور 2 إلى 4 بدون مصعد (+150 ريال)</option>
+                                            <option value="دور 5 فأعلى بدون مصعد" data-extra="300">دور 5 فأعلى بدون مصعد (+300 ريال)</option>
+                                            <option value="يحتاج ونش رفع هيدروليكي" data-extra="450">نحتاج ونش رفع للأدوار العليا (+450 ريال)</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <label class="block text-xs font-semibold text-gray-300 mb-2">خدمات مساندة إضافية (اختياري)</label>
+                                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 text-xs">
+                                        <label class="flex items-center gap-2 bg-slate-800/80 p-2.5 rounded-lg border border-gray-700 cursor-pointer hover:border-secondary transition">
+                                            <input type="checkbox" id="calc-pack" class="accent-orange-500" data-service="150">
+                                            <span>تغليف كرتون وفقاعات (+150)</span>
+                                        </label>
+                                        <label class="flex items-center gap-2 bg-slate-800/80 p-2.5 rounded-lg border border-gray-700 cursor-pointer hover:border-secondary transition">
+                                            <input type="checkbox" id="calc-ac" class="accent-orange-500" data-service="150">
+                                            <span>فك وتركيب مكيفات (+150)</span>
+                                        </label>
+                                        <label class="flex items-center gap-2 bg-slate-800/80 p-2.5 rounded-lg border border-gray-700 cursor-pointer hover:border-secondary transition">
+                                            <input type="checkbox" id="calc-ikea" class="accent-orange-500" data-service="100">
+                                            <span>فني أثاث ايكيا (+100)</span>
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="pt-4 border-t border-gray-800 flex flex-col sm:flex-row items-center justify-between gap-4">
+                                    <div>
+                                        <span class="text-xs text-gray-400 block">السعر التقديري المتوقع:</span>
+                                        <span id="calc-result" class="text-2xl sm:text-3xl font-extrabold text-secondary">600 - 800 ر.س</span>
+                                    </div>
+                                    <button type="button" id="calc-whatsapp-btn" class="w-full sm:w-auto bg-green-600 hover:bg-green-700 text-white font-bold px-6 py-3 rounded-xl transition flex items-center justify-center gap-2 shadow-lg text-sm">
+                                        <i class="fab fa-whatsapp text-lg"></i>
+                                        <span>إرسال الطلب وحجز السعر واتساب</span>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+
+                        <script>
+                        document.addEventListener('DOMContentLoaded', function () {
+                            const roomsSelect = document.getElementById('calc-rooms');
+                            const floorSelect = document.getElementById('calc-floor');
+                            const packCheck = document.getElementById('calc-pack');
+                            const acCheck = document.getElementById('calc-ac');
+                            const ikeaCheck = document.getElementById('calc-ikea');
+                            const resultSpan = document.getElementById('calc-result');
+                            const waBtn = document.getElementById('calc-whatsapp-btn');
+
+                            function updateCalculation() {
+                                if (!roomsSelect) return;
+                                const base = parseInt(roomsSelect.selectedOptions[0].getAttribute('data-base')) || 600;
+                                const extraFloor = parseInt(floorSelect.selectedOptions[0].getAttribute('data-extra')) || 0;
+                                let extraServices = 0;
+                                if (packCheck && packCheck.checked) extraServices += parseInt(packCheck.getAttribute('data-service')) || 0;
+                                if (acCheck && acCheck.checked) extraServices += parseInt(acCheck.getAttribute('data-service')) || 0;
+                                if (ikeaCheck && ikeaCheck.checked) extraServices += parseInt(ikeaCheck.getAttribute('data-service')) || 0;
+
+                                const minTotal = base + extraFloor + extraServices;
+                                const maxTotal = minTotal + Math.round(base * 0.3);
+
+                                resultSpan.textContent = minTotal + ' - ' + maxTotal + ' ر.س';
+                            }
+
+                            if (roomsSelect) {
+                                roomsSelect.addEventListener('change', updateCalculation);
+                                floorSelect.addEventListener('change', updateCalculation);
+                                if (packCheck) packCheck.addEventListener('change', updateCalculation);
+                                if (acCheck) acCheck.addEventListener('change', updateCalculation);
+                                if (ikeaCheck) ikeaCheck.addEventListener('change', updateCalculation);
+                                updateCalculation();
+                            }
+
+                            if (waBtn) {
+                                waBtn.addEventListener('click', function () {
+                                    const roomText = roomsSelect.selectedOptions[0].text;
+                                    const floorText = floorSelect.selectedOptions[0].text;
+                                    let services = [];
+                                    if (packCheck && packCheck.checked) services.push('تغليف كرتون وفقاعات');
+                                    if (acCheck && acCheck.checked) services.push('فك ونقل مكيفات');
+                                    if (ikeaCheck && ikeaCheck.checked) services.push('أثاث ايكيا');
+                                    const servicesText = services.length > 0 ? services.join('، ') : 'بدون إضافات';
+                                    const price = resultSpan.textContent;
+
+                                    const msg = 'مرحبًا شركة نجوم العرب، قمت بحساب تكلفة النقل عبر موقعكم:\n- حجم العقار: ' + roomText + '\n- الدور والمصعد: ' + floorText + '\n- خدمات مساندة: ' + servicesText + '\n- التقدير المحسوب: ' + price + '\n\nأرغب في تأكيد الحجز والاستفسار عن أقرب موعد متاح.';
+                                    window.open('https://wa.me/966500504024?text=' + encodeURIComponent(msg), '_blank');
+                                });
+                            }
+                        });
+                        </script>
+
                         <div class="p-4 bg-amber-50 border border-amber-200 rounded-lg">
                             <p class="text-primary font-semibold text-sm mb-1">لتحديد تقدير مناسب لنقل عفش شقتك:</p>
                             <p class="text-gray-700 text-sm">أرسل لنا عدد الغرف، رقم الدور، وجود مصعد أم لا،
