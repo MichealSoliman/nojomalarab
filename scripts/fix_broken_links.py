@@ -63,3 +63,4 @@ if os.path.exists(shati_file):
     print("Fixed canonical/og:url in shati")
 
 print("All broken links corrected.")
+

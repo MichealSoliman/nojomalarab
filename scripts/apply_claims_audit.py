@@ -151,3 +151,4 @@ with open('claims-report.csv', 'w', encoding='utf-8-sig', newline='') as fp:
         writer.writerow(r)
 
 print(f"Total claim updates performed: {len(records)}")
+
