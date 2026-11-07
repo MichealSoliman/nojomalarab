@@ -1,306 +1,312 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>https://nojomalarab.com/furniture-moving-prices-jeddah/</loc>
-    <lastmod>2026-10-06T12:00:00+00:00</lastmod>
-    <priority>0.80</priority>
+    <loc>https://nojomalarab.com/about/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
-
-  <url>
-    <loc>https://nojomalarab.com/office-furniture-moving-jeddah/</loc>
-    <lastmod>2026-10-06T12:00:00+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/</loc>
-    <lastmod>2026-10-31T12:00:00+00:00</lastmod>
-    <priority>1.00</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/ikea-furniture-moving-jeddah/</loc>
-    <lastmod>2026-10-31T12:00:00+00:00</lastmod>
-    <priority>0.85</priority>
-  </url>
-
   <url>
     <loc>https://nojomalarab.com/ac-disassembly-and-moving-jeddah/</loc>
-    <lastmod>2026-11-03T12:00:00+00:00</lastmod>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/about/</loc>
-    <lastmod>2026-10-06T12:00:00+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/services/</loc>
-    <lastmod>2026-10-10T12:00:00+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/blogs/</loc>
-    <lastmod>2026-10-18T12:00:00+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/areas/</loc>
-    <lastmod>2026-10-10T12:00:00+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/areas/furniture-moving-in-hayu-alshati-jeddah/</loc>
-    <lastmod>2026-10-06T12:00:00+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/areas/furniture-moving-hayu-alhamdaniyah/</loc>
-    <lastmod>2026-10-06T12:00:00+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/areas/furniture-moving-hayu-al-safa/</loc>
-    <lastmod>2026-10-06T12:00:00+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/areas/furniture-moving-hayu-alrawdah/</loc>
-    <lastmod>2026-10-10T12:00:00+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/areas/furniture-moving-hayu-alsalama/</loc>
-    <lastmod>2026-10-10T12:00:00+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/areas/hayu-alhamra/</loc>
-    <lastmod>2026-10-10T12:00:00+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/areas/furniture-moving-obhur-alshamaliyah/</loc>
-    <lastmod>2026-10-10T12:00:00+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/areas/hayu-almarwah/</loc>
-    <lastmod>2026-10-10T12:00:00+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/areas/furniture-moving-hayu-alnaeem/</loc>
-    <lastmod>2026-10-10T12:00:00+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/areas/furniture-moving-hayu-alzahra/</loc>
-    <lastmod>2026-10-10T12:00:00+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/contact/</loc>
-    <lastmod>2026-10-10T12:00:00+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/furniture-disassembly-and-reassembly-in-jeddah/</loc>
-    <lastmod>2026-10-06T12:00:00+00:00</lastmod>
-    <priority>0.90</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/furniture-packaging-in-jeddah/</loc>
-    <lastmod>2026-10-06T12:00:00+00:00</lastmod>
-    <priority>0.90</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/best-furniture-moving-company-jeddah/</loc>
-    <lastmod>2026-10-06T12:00:00+00:00</lastmod>
-    <priority>0.90</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/furniture-transport-trucks-in-jeddah/</loc>
-    <lastmod>2026-10-06T12:00:00+00:00</lastmod>
-    <priority>0.90</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/furniture-storage-in-jeddah/</loc>
-    <lastmod>2026-10-20T12:30:00+00:00</lastmod>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/villa-moving-jeddah/</loc>
-    <lastmod>2026-10-06T12:00:00+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/apartment-furniture-moving-jeddah/</loc>
-    <lastmod>2026-10-06T12:00:00+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/intercity-furniture-moving-from-jeddah/</loc>
-    <lastmod>2026-10-20T12:00:00+00:00</lastmod>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/furniture-lifting-crane-in-jeddah/</loc>
-    <lastmod>2026-10-06T12:00:00+00:00</lastmod>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/carpenter-furniture-disassembly-assembly-jeddah/</loc>
-    <lastmod>2026-10-06T12:00:00+00:00</lastmod>
-    <priority>0.85</priority>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://nojomalarab.com/affordable-furniture-moving-jeddah/</loc>
-    <lastmod>2026-10-24T12:00:00+00:00</lastmod>
-    <priority>0.85</priority>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/apartment-furniture-moving-jeddah/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/areas/furniture-moving-hayu-al-safa/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/areas/furniture-moving-hayu-alhamdaniyah/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/areas/furniture-moving-hayu-alnaeem/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/areas/furniture-moving-hayu-alrawdah/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/areas/furniture-moving-hayu-alsalama/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/areas/furniture-moving-hayu-alzahra/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/areas/furniture-moving-in-hayu-alshati-jeddah/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/areas/furniture-moving-obhur-alshamaliyah/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/areas/hayu-alhamra/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/areas/hayu-almarwah/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/areas/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/best-furniture-moving-company-jeddah/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/blogs/furniture-moving-prices-jeddah-2026/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/blogs/home-preparation-steps-before-moving/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/blogs/how-to-choose-best-moving-company-in-jeddah/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/blogs/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/blogs/new-home-moving-checklist-jeddah/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/blogs/packing-fragile-electronics-glass-antiques/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/blogs/protecting-furniture-jeddah-heat-humidity/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/blogs/the-best-furniture-moving-company-in-jeddah/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/carpenter-furniture-disassembly-assembly-jeddah/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/components/footer.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/contact/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/filipino-moving-labour-jeddah/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/furniture-disassembly-and-reassembly-in-jeddah/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/furniture-lifting-crane-in-jeddah/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/furniture-moving-prices-jeddah/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/furniture-packaging-in-jeddah/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/furniture-storage-in-jeddah/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/furniture-transport-trucks-in-jeddah/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/ikea-furniture-moving-jeddah/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/intercity-furniture-moving-from-jeddah/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/intercity-moving/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/intercity-moving/jeddah-to-dammam/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/intercity-moving/jeddah-to-madinah/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/intercity-moving/jeddah-to-makkah/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/intercity-moving/jeddah-to-riyadh/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/intercity-moving/jeddah-to-taif/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://nojomalarab.com/kitchen-moving-jeddah/</loc>
-    <lastmod>2026-10-24T12:00:00+00:00</lastmod>
-    <priority>0.85</priority>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
-
   <url>
-    <loc>https://nojomalarab.com/blogs/home-preparation-steps-before-moving/</loc>
-    <lastmod>2026-10-06T12:00:00+00:00</lastmod>
-    <priority>0.80</priority>
+    <loc>https://nojomalarab.com/office-furniture-moving-jeddah/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
-
-  <url>
-    <loc>https://nojomalarab.com/blogs/how-to-choose-best-moving-company-in-jeddah/</loc>
-    <lastmod>2026-10-06T12:00:00+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/blogs/the-best-furniture-moving-company-in-jeddah/</loc>
-    <lastmod>2026-10-06T12:00:00+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-
-
-  <url>
-    <loc>https://nojomalarab.com/blogs/furniture-moving-prices-jeddah-2026/</loc>
-    <lastmod>2026-10-18T12:00:00+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/blogs/packing-fragile-electronics-glass-antiques/</loc>
-    <lastmod>2026-10-18T12:00:00+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/blogs/protecting-furniture-jeddah-heat-humidity/</loc>
-    <lastmod>2026-10-18T12:00:00+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/blogs/new-home-moving-checklist-jeddah/</loc>
-    <lastmod>2026-10-18T12:00:00+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-
-
-  <url>
-    <loc>https://nojomalarab.com/intercity-moving/</loc>
-    <lastmod>2026-10-20T12:00:00+00:00</lastmod>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/intercity-moving/jeddah-to-riyadh/</loc>
-    <lastmod>2026-10-20T12:00:00+00:00</lastmod>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/intercity-moving/jeddah-to-makkah/</loc>
-    <lastmod>2026-10-20T12:00:00+00:00</lastmod>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/intercity-moving/jeddah-to-madinah/</loc>
-    <lastmod>2026-10-20T12:00:00+00:00</lastmod>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/intercity-moving/jeddah-to-taif/</loc>
-    <lastmod>2026-10-20T12:00:00+00:00</lastmod>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/intercity-moving/jeddah-to-dammam/</loc>
-    <lastmod>2026-10-20T12:00:00+00:00</lastmod>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/ikea-furniture-moving-jeddah/</loc>
-    <lastmod>2026-11-03T12:00:00+00:00</lastmod>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://nojomalarab.com/ac-disassembly-and-moving-jeddah/</loc>
-    <lastmod>2026-10-31T12:00:00+00:00</lastmod>
-    <priority>0.85</priority>
-  </url>
-
   <url>
     <loc>https://nojomalarab.com/old-furniture-removal-jeddah/</loc>
-    <lastmod>2026-11-03T12:00:00+00:00</lastmod>
-    <priority>0.85</priority>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
-
+  <url>
+    <loc>https://nojomalarab.com/privacy-policy.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/services/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
   <url>
     <loc>https://nojomalarab.com/small-moving-truck-jeddah/</loc>
-    <lastmod>2026-11-03T12:00:00+00:00</lastmod>
-    <priority>0.85</priority>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
-
   <url>
-    <loc>https://nojomalarab.com/filipino-moving-labour-jeddah/</loc>
-    <lastmod>2026-11-03T12:00:00+00:00</lastmod>
-    <priority>0.85</priority>
+    <loc>https://nojomalarab.com/terms.html</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://nojomalarab.com/villa-moving-jeddah/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
 </urlset>
