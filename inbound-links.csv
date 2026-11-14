@@ -1,0 +1,47 @@
+url,inbound_links_count,status
+/,346,PASS (>=3)
+/about/,90,PASS (>=3)
+/ac-disassembly-and-moving-jeddah/,4,PASS (>=3)
+/affordable-furniture-moving-jeddah/,3,PASS (>=3)
+/apartment-furniture-moving-jeddah/,16,PASS (>=3)
+/areas/,67,PASS (>=3)
+/areas/furniture-moving-hayu-al-safa/,11,PASS (>=3)
+/areas/furniture-moving-hayu-alhamdaniyah/,11,PASS (>=3)
+/areas/furniture-moving-hayu-alnaeem/,7,PASS (>=3)
+/areas/furniture-moving-hayu-alrawdah/,9,PASS (>=3)
+/areas/furniture-moving-hayu-alsalama/,9,PASS (>=3)
+/areas/furniture-moving-hayu-alzahra/,8,PASS (>=3)
+/areas/furniture-moving-in-hayu-alshati-jeddah/,10,PASS (>=3)
+/areas/furniture-moving-obhur-alshamaliyah/,8,PASS (>=3)
+/areas/hayu-alhamra/,8,PASS (>=3)
+/areas/hayu-almarwah/,7,PASS (>=3)
+/best-furniture-moving-company-jeddah/,8,PASS (>=3)
+/blogs/,44,PASS (>=3)
+/blogs/home-preparation-steps-before-moving/,1,NEEDS_DATA / FOOTER_ONLY
+/blogs/how-to-choose-best-moving-company-in-jeddah/,2,NEEDS_DATA / FOOTER_ONLY
+/blogs/packing-fragile-electronics-glass-antiques/,2,NEEDS_DATA / FOOTER_ONLY
+/contact/,98,PASS (>=3)
+/filipino-moving-labour-jeddah/,2,NEEDS_DATA / FOOTER_ONLY
+/furniture-disassembly-and-reassembly-in-jeddah/,68,PASS (>=3)
+/furniture-lifting-crane-in-jeddah/,31,PASS (>=3)
+/furniture-moving-prices-jeddah/,31,PASS (>=3)
+/furniture-packaging-in-jeddah/,74,PASS (>=3)
+/furniture-storage-in-jeddah/,35,PASS (>=3)
+/furniture-transport-trucks-in-jeddah/,54,PASS (>=3)
+/ikea-furniture-moving-jeddah/,3,PASS (>=3)
+/intercity-moving/,53,PASS (>=3)
+/intercity-moving/jeddah-to-dammam/,5,PASS (>=3)
+/intercity-moving/jeddah-to-madinah/,5,PASS (>=3)
+/intercity-moving/jeddah-to-makkah/,5,PASS (>=3)
+/intercity-moving/jeddah-to-riyadh/,5,PASS (>=3)
+/intercity-moving/jeddah-to-taif/,5,PASS (>=3)
+/kitchen-moving-jeddah/,3,PASS (>=3)
+/office-furniture-moving-jeddah/,14,PASS (>=3)
+/old-furniture-removal-jeddah/,3,PASS (>=3)
+/privacy-policy.html/,2,NEEDS_DATA / FOOTER_ONLY
+/privacy-policy/,2,NEEDS_DATA / FOOTER_ONLY
+/services/,127,PASS (>=3)
+/small-moving-truck-jeddah/,2,NEEDS_DATA / FOOTER_ONLY
+/terms.html/,1,NEEDS_DATA / FOOTER_ONLY
+/terms/,1,NEEDS_DATA / FOOTER_ONLY
+/villa-moving-jeddah/,14,PASS (>=3)
