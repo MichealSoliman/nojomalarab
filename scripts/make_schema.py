@@ -1,0 +1,270 @@
+import json
+
+schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MovingCompany",
+      "@id": "https://nojomalarab.com/#organization",
+      "name": "شركة نجوم العرب لنقل الأثاث بجدة",
+      "alternateName": "نجوم العرب",
+      "url": "https://nojomalarab.com/",
+      "logo": "https://nojomalarab.com/assets/img/logo-512.webp",
+      "image": "https://nojomalarab.com/assets/img/hero-1200.webp",
+      "telephone": "+966500504024",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "حي مشرفة – شارع الصحافة – خلف مرور الصحافة",
+        "addressLocality": "جدة",
+        "addressRegion": "منطقة مكة المكرمة",
+        "addressCountry": "SA"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Saturday",
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "09:00",
+          "closes": "21:00"
+        }
+      ],
+      "areaServed": [
+        { "@type": "City", "name": "جدة" },
+        { "@type": "AdministrativeArea", "name": "حي الشاطئ" },
+        { "@type": "AdministrativeArea", "name": "حي الروضة" },
+        { "@type": "AdministrativeArea", "name": "حي الزهراء" },
+        { "@type": "AdministrativeArea", "name": "حي السلامة" },
+        { "@type": "AdministrativeArea", "name": "حي النعيم" },
+        { "@type": "AdministrativeArea", "name": "أبحر الشمالية" },
+        { "@type": "AdministrativeArea", "name": "حي الحمدانية" },
+        { "@type": "AdministrativeArea", "name": "حي الحمراء" },
+        { "@type": "AdministrativeArea", "name": "حي المروة" },
+        { "@type": "AdministrativeArea", "name": "حي الصفا" }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/share/1CxAfotMzu/",
+        "https://www.instagram.com/nngoom33"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+966500504024",
+        "contactType": "customer service",
+        "areaServed": "SA",
+        "availableLanguage": ["Arabic"]
+      },
+      "knowsAbout": [
+        "نقل عفش جدة",
+        "نقل أثاث بجدة",
+        "فك وتركيب العفش",
+        "تغليف الأثاث",
+        "ونش رفع العفش",
+        "نقل عفش بين المدن"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://nojomalarab.com/#website",
+      "url": "https://nojomalarab.com/",
+      "name": "شركة نجوم العرب لنقل الأثاث بجدة",
+      "description": "شركة نقل عفش جدة – خدمات نقل وتغليف وفك وتركيب الأثاث في كافة أحياء جدة",
+      "publisher": {
+        "@id": "https://nojomalarab.com/#organization"
+      },
+      "inLanguage": "ar"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://nojomalarab.com/#webpage",
+      "url": "https://nojomalarab.com/",
+      "name": "شركة نقل عفش جدة | نقل أثاث بجدة فك وتغليف وتركيب - نجوم العرب",
+      "description": "شركة نقل عفش جدة – نجوم العرب: نقل أثاث مع فك وتركيب وتغليف للشقق والفلل والمكاتب بسيارات مجهزة في كل أحياء جدة. معاينة مجانية: 0500504024",
+      "inLanguage": "ar",
+      "isPartOf": {
+        "@id": "https://nojomalarab.com/#website"
+      },
+      "about": {
+        "@id": "https://nojomalarab.com/#organization"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://nojomalarab.com/assets/img/hero-1200.webp",
+        "width": 1200,
+        "height": 900,
+        "caption": "شركة نقل عفش جدة نجوم العرب — سيارة دينا مجهزة لنقل الأثاث"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://nojomalarab.com/#service-moving",
+      "name": "نقل العفش والأثاث بجدة",
+      "serviceType": "Furniture Moving",
+      "description": "خدمات نقل الأثاث المنزلي والمكتبي داخل وخارج جدة بواسطة سيارات دينا مجهزة وفريق مدرب.",
+      "url": "https://nojomalarab.com/",
+      "provider": {
+        "@id": "https://nojomalarab.com/#organization"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "جدة"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://nojomalarab.com/#service-disassembly",
+      "name": "فك وتركيب الأثاث بجدة",
+      "serviceType": "Furniture Disassembly and Assembly",
+      "description": "فك وتركيب غرف النوم، المطابخ، المكاتب، وأثاث ايكيا بأيدي نجارين متخصصين.",
+      "url": "https://nojomalarab.com/furniture-disassembly-and-reassembly-in-jeddah/",
+      "provider": {
+        "@id": "https://nojomalarab.com/#organization"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "جدة"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://nojomalarab.com/#service-packaging",
+      "name": "تغليف العفش والأثاث بجدة",
+      "serviceType": "Furniture Packaging",
+      "description": "تغليف وقائي شامل باستخدام الكرتون المقوى، البابلز الهوائي، والنايلون الاسترتش لحماية الأثاث أثناء النقل.",
+      "url": "https://nojomalarab.com/furniture-packaging-in-jeddah/",
+      "provider": {
+        "@id": "https://nojomalarab.com/#organization"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "جدة"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://nojomalarab.com/#service-crane",
+      "name": "ونش رفع العفش بجدة",
+      "serviceType": "Furniture Lifting Crane",
+      "description": "رفع وتنزيل الأثاث والقطع الثقيلة للأدوار المرتفعة عبر واجهات المباني بأمان تام.",
+      "url": "https://nojomalarab.com/furniture-lifting-crane-in-jeddah/",
+      "provider": {
+        "@id": "https://nojomalarab.com/#organization"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "جدة"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://nojomalarab.com/#service-intercity",
+      "name": "نقل العفش بين المدن من جدة",
+      "serviceType": "Intercity Moving",
+      "description": "شحن ونقل الأثاث من جدة إلى الرياض، مكة المكرمة، المدينة المنورة، الطائف، والدمام بسيارات مغلقة مجهزة.",
+      "url": "https://nojomalarab.com/intercity-moving/",
+      "provider": {
+        "@id": "https://nojomalarab.com/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "المملكة العربية السعودية"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://nojomalarab.com/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "ما الخدمات التي يشملها نقل العفش؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "تشمل خدماتنا الأساسية توفير العمالة وسيارات النقل، مع إمكانية إضافة خدمات مساندة مثل فك وتركيب الأثاث، وتغليف العفش، واستخدام ونش الرفع للأدوار المرتفعة حسب احتياجك."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "كم سعر نقل العفش في جدة؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "تعتمد تكلفة نقل العفش في جدة على حجم المنقولات وعدد الغرف ومسافة النقل والأدوار. نوفر خيارات بأسعار مناسبة تبدأ من 350 ريال للاستوديو مع معاينة مجانية لتحديد التكلفة الدقيقة، ويمكنك مراجعة جدول التقديرات التوضيحي بالصفحة."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "هل شركة نقل العفش في جدة توفر عمالة وفك وتركيب؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "نعم، نوفر طاقم عمل مدرباً يشمل نجارين متخصصين لفك وتركيب غرف النوم والمطابخ والمكاتب، مع تغليف كل قطعة وترقيم الملحقات لضمان إعادة تجميعها بإتقان وأمان تام."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ما أفضل وقت لحجز شركة نقل أثاث في جدة؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "كلما حجزت مبكراً كان توفر المواعيد وتنسيق سيارات النقل وفريق العمل أفضل، ويُفضل التواصل قبل الموعد بيوم أو يومين لتحديد الترتيبات المناسبة."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "هل تنقلون العفش من جدة إلى مكة والمدينة والرياض وباقي المدن؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "نعم، نوفر رحلات شحن ونقل منتظمة بين المدن عبر شاحنات دينا مقفلة ومجهزة من جدة إلى الرياض، مكة المكرمة، المدينة المنورة، الطائف، والدمام مع تثبيت احترافي."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "هل تخدمون جميع المناطق داخل جدة؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "نعم، نقدم خدمات النقل لمختلف أحياء ومناطق جدة بما فيها أحياء شمال ووسط وجنوب وشرق جدة لتسهيل عملية انتقالك داخل المدينة بكفاءة عالية."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "هل تقومون بنقل أثاث المكاتب والفلل؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "بالتأكيد، نحن نتعامل مع مختلف أنواع العقارات بما في ذلك نقل الشقق، ونقل الفلل، بالإضافة إلى نقل وتجهيز مقرات المكاتب والشركات."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "كم تستغرق عملية النقل؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "تعتمد المدة على حجم المنقولات والخدمات المطلوبة. عادةً ما تكتمل عمليات النقل الداخلية في نفس اليوم، ويتم الاتفاق على الوقت المتوقع عند المعاينة والحجز."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ما الذي يجب علي تجهيزه قبل وصول الفريق؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "يُفضل جمع المتعلقات الشخصية والمستندات الهامة، وفصل الأجهزة الكهربائية، وإخلاء الممرات لتسهيل عمل الفريق وضمان سرعة الإنجاز."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "هل المعاينة الميدانية مجانية قبل الاتفاق؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "نعم، نوفر خدمة المعاينة المجانية داخل أحياء جدة لتقدير حجم الأثاث وعدد الشاحنات المطلوبة والخدمات المساندة وتحديد التكلفة النهائية بدقة."
+          }
+        }
+      ]
+    }
+  ]
+}
+
+with open('scripts/schema.json', 'w', encoding='utf-8') as f:
+    json.dump(schema, f, ensure_ascii=False, indent=2)
+
+print('Saved scripts/schema.json successfully.')
+

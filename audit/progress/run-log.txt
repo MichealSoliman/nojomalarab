@@ -1,0 +1,121 @@
+﻿=== Progress Audit Run Log ===
+[A_CHECK] Starting Phase A: Environment, Git Status, and Live vs Local...
+[A_CHECK] Local files present: 54 HTML files found in project root.
+[A_CHECK] Git branch: phase-1-foundation
+[A_CHECK] Git commit: 3afa3d614e9686f5beefabd49f1859933e7da86d change (Sat Nov 14 11:27:46 2026 +0200)
+[A_CHECK] Live connectivity check: HTTP 200
+[A_CHECK] Phase A completed. audit/progress/live-vs-local.md generated.
+[CLEAN_INVENTORY] Starting clean inventory & route normalization...
+[CLEAN_INVENTORY] Total HTML files found: 54
+[CLEAN_INVENTORY] Publishable files: 51 | Non-publishable files: 3
+[CLEAN_INVENTORY] Sitemap URLs count: 51
+[CLEAN_INVENTORY] Total links parsed: 2639
+[CLEAN_INVENTORY] Truly broken internal links: 1044
+[CLEAN_INVENTORY] Total images parsed: 72
+[CLEAN_INVENTORY] Clean inventory written to audit/progress/01-clean-inventory.csv
+[URLJOIN_INVENTORY] Starting exact urljoin-based link & inventory audit...
+[URLJOIN_INVENTORY] Valid canonical routes count: 52
+[URLJOIN_INVENTORY] Total links: 2639
+[URLJOIN_INVENTORY] Internal links: 1424
+[URLJOIN_INVENTORY] Broken internal links: 1044
+[URLJOIN_INVENTORY] Sample broken links:
+[URLJOIN_INVENTORY]   404.html -> href='https://nojomalarab.com/services/' (resolved: /services/) | anchor='خدمات النقل'
+[URLJOIN_INVENTORY]   404.html -> href='https://nojomalarab.com/furniture-moving-prices-jeddah/' (resolved: /furniture-moving-prices-jeddah/) | anchor='أسعار نقل العفش'
+[URLJOIN_INVENTORY]   404.html -> href='https://nojomalarab.com/areas/' (resolved: /areas/) | anchor='أحياء جدة'
+[URLJOIN_INVENTORY]   404.html -> href='https://nojomalarab.com/contact/' (resolved: /contact/) | anchor='اتصل بنا'
+[URLJOIN_INVENTORY]   about/index.html -> href='../services/' (resolved: /services/) | anchor='خدماتنا'
+[URLJOIN_INVENTORY]   about/index.html -> href='../contact/' (resolved: /contact/) | anchor='تواصل معنا'
+[URLJOIN_INVENTORY]   about/index.html -> href='../services/' (resolved: /services/) | anchor='خدماتنا'
+[URLJOIN_INVENTORY]   about/index.html -> href='../contact/' (resolved: /contact/) | anchor='تواصل معنا'
+[URLJOIN_INVENTORY]   about/index.html -> href='../furniture-disassembly-and-reassembly-in-jeddah/' (resolved: /furniture-disassembly-and-reassembly-in-jeddah/) | anchor='فك الأثاث'
+[URLJOIN_INVENTORY]   about/index.html -> href='../furniture-packaging-in-jeddah/' (resolved: /furniture-packaging-in-jeddah/) | anchor='التغليف الشامل'
+[URLJOIN_INVENTORY] Exact links written to audit/progress/02-exact-links.csv
+[CLEAN_LINKS] Starting corrected canonical path link audit...
+[CLEAN_LINKS] Normalized valid canonical paths (52 routes):
+[CLEAN_LINKS]   /
+[CLEAN_LINKS]   /404.html
+[CLEAN_LINKS]   /about/
+[CLEAN_LINKS]   /ac-disassembly-and-moving-jeddah/
+[CLEAN_LINKS]   /affordable-furniture-moving-jeddah/
+[CLEAN_LINKS]   /apartment-furniture-moving-jeddah/
+[CLEAN_LINKS]   /areas/
+[CLEAN_LINKS]   /areas/furniture-moving-hayu-al-safa/
+[CLEAN_LINKS]   /areas/furniture-moving-hayu-alhamdaniyah/
+[CLEAN_LINKS]   /areas/furniture-moving-hayu-alnaeem/
+[CLEAN_LINKS]   /areas/furniture-moving-hayu-alrawdah/
+[CLEAN_LINKS]   /areas/furniture-moving-hayu-alsalama/
+[CLEAN_LINKS]   /areas/furniture-moving-hayu-alzahra/
+[CLEAN_LINKS]   /areas/furniture-moving-in-hayu-alshati-jeddah/
+[CLEAN_LINKS]   /areas/furniture-moving-obhur-alshamaliyah/
+[CLEAN_LINKS] Total links evaluated: 2639
+[CLEAN_LINKS] Internal links: 1424
+[CLEAN_LINKS] ACTUAL broken internal links: 24
+[CLEAN_LINKS] Detailed list of broken links:
+[CLEAN_LINKS]   Page: privacy-policy.html | href='./about/' (resolved: /privacy-policy/about/) | anchor='من نحن'
+[CLEAN_LINKS]   Page: privacy-policy.html | href='./services/' (resolved: /privacy-policy/services/) | anchor='خدماتنا'
+[CLEAN_LINKS]   Page: privacy-policy.html | href='./office-furniture-moving-jeddah/' (resolved: /privacy-policy/office-furniture-moving-jeddah/) | anchor='مكاتب وشركات'
+[CLEAN_LINKS]   Page: privacy-policy.html | href='./furniture-moving-prices-jeddah/' (resolved: /privacy-policy/furniture-moving-prices-jeddah/) | anchor='أسعار نقل العفش'
+[CLEAN_LINKS]   Page: privacy-policy.html | href='./blogs/' (resolved: /privacy-policy/blogs/) | anchor='المدونة'
+[CLEAN_LINKS]   Page: privacy-policy.html | href='./contact/' (resolved: /privacy-policy/contact/) | anchor='تواصل معنا'
+[CLEAN_LINKS]   Page: privacy-policy.html | href='./about/' (resolved: /privacy-policy/about/) | anchor='من نحن'
+[CLEAN_LINKS]   Page: privacy-policy.html | href='./services/' (resolved: /privacy-policy/services/) | anchor='خدماتنا'
+[CLEAN_LINKS]   Page: privacy-policy.html | href='./office-furniture-moving-jeddah/' (resolved: /privacy-policy/office-furniture-moving-jeddah/) | anchor='مكاتب وشركات'
+[CLEAN_LINKS]   Page: privacy-policy.html | href='./furniture-moving-prices-jeddah/' (resolved: /privacy-policy/furniture-moving-prices-jeddah/) | anchor='أسعار نقل العفش'
+[CLEAN_LINKS]   Page: privacy-policy.html | href='./blogs/' (resolved: /privacy-policy/blogs/) | anchor='المدونة'
+[CLEAN_LINKS]   Page: privacy-policy.html | href='./contact/' (resolved: /privacy-policy/contact/) | anchor='تواصل معنا'
+[CLEAN_LINKS]   Page: terms.html | href='./about/' (resolved: /terms/about/) | anchor='من نحن'
+[CLEAN_LINKS]   Page: terms.html | href='./services/' (resolved: /terms/services/) | anchor='خدماتنا'
+[CLEAN_LINKS]   Page: terms.html | href='./office-furniture-moving-jeddah/' (resolved: /terms/office-furniture-moving-jeddah/) | anchor='مكاتب وشركات'
+[CLEAN_LINKS]   Page: terms.html | href='./furniture-moving-prices-jeddah/' (resolved: /terms/furniture-moving-prices-jeddah/) | anchor='أسعار نقل العفش'
+[CLEAN_LINKS]   Page: terms.html | href='./blogs/' (resolved: /terms/blogs/) | anchor='المدونة'
+[CLEAN_LINKS]   Page: terms.html | href='./contact/' (resolved: /terms/contact/) | anchor='تواصل معنا'
+[CLEAN_LINKS]   Page: terms.html | href='./about/' (resolved: /terms/about/) | anchor='من نحن'
+[CLEAN_LINKS]   Page: terms.html | href='./services/' (resolved: /terms/services/) | anchor='خدماتنا'
+[CLEAN_LINKS]   Page: terms.html | href='./office-furniture-moving-jeddah/' (resolved: /terms/office-furniture-moving-jeddah/) | anchor='مكاتب وشركات'
+[CLEAN_LINKS]   Page: terms.html | href='./furniture-moving-prices-jeddah/' (resolved: /terms/furniture-moving-prices-jeddah/) | anchor='أسعار نقل العفش'
+[CLEAN_LINKS]   Page: terms.html | href='./blogs/' (resolved: /terms/blogs/) | anchor='المدونة'
+[CLEAN_LINKS]   Page: terms.html | href='./contact/' (resolved: /terms/contact/) | anchor='تواصل معنا'
+[CLEAN_LINKS] Written corrected audit/progress/02-exact-links.csv
+[PHASES_RUNNER] Starting comprehensive multi-phase audit runner...
+[PHASES_RUNNER] Parsed 51 publishable pages.
+[PHASES_RUNNER] Evaluating Phase 0 (Homepage)...
+[PHASES_RUNNER] Evaluating Phase 1 (Site-wide Foundations)...
+[PHASES_RUNNER] Starting comprehensive multi-phase audit runner...
+[PHASES_RUNNER] Parsed 51 publishable pages.
+[PHASES_RUNNER] Evaluating Phase 0 (Homepage)...
+[PHASES_RUNNER] Evaluating Phase 1 (Site-wide Foundations)...
+[PHASES_RUNNER] Evaluating Phase 2 (Duplicate Content)...
+[PHASES_RUNNER] Evaluating Phase 3 (Neighborhoods & Intercity)...
+[PHASES_RUNNER] Evaluating Phase 4 (Specialized & Blog)...
+[PHASES_RUNNER] Evaluating Phase 5, 6, and IDX...
+[PHASES_RUNNER] Progress matrix generated with 45 line items.
+[CLEAN_LINKS] Starting corrected canonical path link audit...
+[CLEAN_LINKS] Normalized valid canonical paths (52 routes):
+[CLEAN_LINKS]   /
+[CLEAN_LINKS]   /404.html
+[CLEAN_LINKS]   /about/
+[CLEAN_LINKS]   /ac-disassembly-and-moving-jeddah/
+[CLEAN_LINKS]   /affordable-furniture-moving-jeddah/
+[CLEAN_LINKS]   /apartment-furniture-moving-jeddah/
+[CLEAN_LINKS]   /areas/
+[CLEAN_LINKS]   /areas/furniture-moving-hayu-al-safa/
+[CLEAN_LINKS]   /areas/furniture-moving-hayu-alhamdaniyah/
+[CLEAN_LINKS]   /areas/furniture-moving-hayu-alnaeem/
+[CLEAN_LINKS]   /areas/furniture-moving-hayu-alrawdah/
+[CLEAN_LINKS]   /areas/furniture-moving-hayu-alsalama/
+[CLEAN_LINKS]   /areas/furniture-moving-hayu-alzahra/
+[CLEAN_LINKS]   /areas/furniture-moving-in-hayu-alshati-jeddah/
+[CLEAN_LINKS]   /areas/furniture-moving-obhur-alshamaliyah/
+[CLEAN_LINKS] Total links evaluated: 2639
+[CLEAN_LINKS] Internal links: 1424
+[CLEAN_LINKS] ACTUAL broken internal links: 0
+[CLEAN_LINKS] Written corrected audit/progress/02-exact-links.csv
+[PHASES_RUNNER] Starting comprehensive multi-phase audit runner...
+[PHASES_RUNNER] Parsed 51 publishable pages.
+[PHASES_RUNNER] Evaluating Phase 0 (Homepage)...
+[PHASES_RUNNER] Evaluating Phase 1 (Site-wide Foundations)...
+[PHASES_RUNNER] Evaluating Phase 2 (Duplicate Content)...
+[PHASES_RUNNER] Evaluating Phase 3 (Neighborhoods & Intercity)...
+[PHASES_RUNNER] Evaluating Phase 4 (Specialized & Blog)...
+[PHASES_RUNNER] Evaluating Phase 5, 6, and IDX...
+[PHASES_RUNNER] Progress matrix generated with 45 line items.

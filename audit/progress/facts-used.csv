@@ -1,0 +1,8 @@
+page,claim_or_fact,source
+"all","ساعات العمل: السبت - الخميس 9:00 ص - 9:00 م (الجمعة مغلق)","index.html line 43 & original specification"
+"all","رقم الاتصال: 0500504024 وواتساب: 966500504024","index.html header & NAP specification"
+"all","العنوان: حي مشرفة – شارع الصحافة – خلف مرور الصحافة، جدة","index.html schema & footer"
+"all","حذف Google Analytics و gtag و analytics.js نهائياً","User directive 5 in prompt"
+"privacy-policy.html","روابط القائمة والتنقل المطلقة إلى /about/ و /services/ و /blogs/ و /contact/","sitemap.xml & project route structure"
+"terms.html","روابط القائمة والتنقل المطلقة إلى /about/ و /services/ و /blogs/ و /contact/","sitemap.xml & project route structure"
+"all subpages","رابط التخطي للمحتوى الرئيسي <a href='#main-content'>","W3C WCAG 2.1 accessibility requirement"
